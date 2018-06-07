@@ -1,0 +1,381 @@
+[v-cloak] {
+    display: none;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    margin: 0;
+    overflow: hidden;
+}
+.container-table {
+    display: table;
+    height: 100%;
+}
+.vertical-center-row {
+    display: table-cell;
+    vertical-align: middle;
+}
+.horizontal-center-row {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+@font-face {
+    font-family: 'Century Gothic';
+    src: url('/fonts/century-gothic/Century Gothic.ttf');
+}
+
+body {
+    font-family: 'Century Gothic', serif !important;
+}
+.primary-color {
+    color: rgb(235, 115, 33);
+}
+.container-fluid, .row-fluid {
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.fixed-bottom {
+    position: fixed;
+    bottom: 5px;
+    width: 100%;
+}
+.text-center {
+    text-align: center;
+}
+/**
+Base layout page
+ */
+.bg-decor {
+    position: absolute;
+    height: 100%;
+}
+
+.btn {
+    text-align: center;
+    text-transform: uppercase;
+    padding: 5px;
+    font-size: 14px;
+    border-radius: 15px;
+    width: 200px;
+}
+.btn-primary {
+    background: rgb(236,123,47);
+    color: white;
+    font-weight: bold;
+    border: 1px solid rgb(236,123,47);
+    border-bottom: 3px solid rgb(188,89,21);
+}
+.login {
+    width: 100%;
+    max-width: 420px;
+    padding: 15px;
+    margin: 0 auto;
+}
+.form-login-avatar {
+    background: white; border-radius: 50%; display: inline-block; padding: 5px;
+}
+.form-login-avatar-wrapper {
+    left: 0; right: 0; margin-left: auto; margin-right: auto; z-index: 99; margin-top: 10px; position: absolute;
+}
+
+.forgot-password > a {
+    font-size: 11px;
+    font-style: italic;
+    color: lightslategray;
+}
+
+.login  input {
+    outline: 0; width: 100%; border: none; border-bottom: 1px solid rgb(235, 115, 33); background: transparent; padding-top: 5px;
+}
+
+.form-wrapper {
+    margin-top:80px;
+    padding: 72px 15px 72px 5px;
+    background-color: rgb(234,234,234);
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.text-primary{
+    color: #ec7b2f;
+    font-family: 'Century Gothic' !important;
+    font-weight: bold;
+}
+.text-secundary{
+    color: #B5D84A;
+    font-family: 'Century Gothic', serif !important;
+    font-weight: bold;
+}
+.text-muted{
+    color: #5d5d5d !important;
+    font-weight: normal !important;
+}
+
+.ba-bg-green,.text-muted,text{
+    background-color: #E0EC97;
+    border: 1px solid #E0EC97;
+    border-radius: 8px;
+    padding: 8px;
+    outline: 0;
+}
+
+.ba-bg-orange{
+    background: #ec7b2f !important;
+    font-family: 'Century Gothic' !important;
+}
+
+.select {
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    background-position: center right;
+    background-image: url("../img/select.png"); /* URL del archivo de la imagen */
+    background-repeat: no-repeat;
+    background-size: 20px;
+}
+
+.file-camera {
+    background-position: center right;
+    background-image: url("../img/camera.png");
+    background-repeat: no-repeat;
+    background-size: 30px;
+    background-position-y: bottom 20px;
+    background-position-x: right 20px;
+}
+
+.selected{
+    background-color: #E1ED98 !important;
+}
+
+.form-signin {
+    width: 100%;
+    max-width: 420px;
+    padding: 15px;
+    margin: 0 auto;
+}
+
+footer {
+    position: fixed;
+    bottom: 5px;
+    width: 100%;
+}
+
+.w-100{
+    width: 100% !important;
+}
+
+.w-70{
+    width: 70% !important;
+}
+
+.w-40{
+    width: 40% !important;
+}
+
+.w-30{
+    width: 30% !important;
+}
+
+.w-20{
+    width: 20% !important;
+}
+
+.w-15{
+    width: 15% !important;
+}
+
+.p-0{
+    padding: 0px;
+}
+.pl-5x{
+    padding-left: 50px;
+}
+
+.pr-5x{
+    padding-right: 50px;
+}
+
+.btn-rounded-orange{
+    background-color : #ec7b2f !important;
+    border-color: #e72f;
+    border-radius: 20px;
+    color: #FFF;
+    font-weight: bold;
+    height: 30px;
+}
+
+.button {
+    background: rgb(236,123,47);
+    border-bottom: 3px solid rgb(188,89,21) !important;
+    border-radius: 15px;
+    border: 1px solid rgb(236,123,47);
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 5px;
+    text-align: center;
+    text-transform: uppercase;
+    width: 200px;
+}
+
+.img-logout{
+    margin-left: -50px;
+}
+.img-logo{
+    width: 160px;
+}
+.icon-menu{
+    height: 20px;
+    width: 20px;
+}
+.bg-content{
+    background: white;
+    height: calc(100vh - 50px);
+}
+
+.p-0x{
+    padding: 0px;
+}
+
+.mt-20px{
+    margin-top: 20px;
+}
+
+.mt-30px{
+    margin-top: 30px;
+}
+
+.mb-50px{
+    margin-bottom: 50px;
+}
+
+.mb-60px{
+    margin-bottom: 60px;
+}
+
+.ml-15{
+    margin-left: 15%;
+}
+
+.pr-0px{
+    padding-right: 0px;
+}
+
+.fb{
+    font-weight: bold !important;
+}
+
+.pr-19{
+    padding-right: 190px !important;
+}
+
+.pl-9{
+    padding-left: 90px !important;
+}
+
+.ml-30{
+    margin-left: 30%;
+}
+
+.ml-40{
+    margin-left: 40%;
+}
+
+.ml-34{
+    margin-left: 34%;
+}
+
+.ml-20{
+    margin-left: 20%;
+}
+
+.ml-25{
+    margin-left: 25%;
+}
+
+.logout-content {
+    margin-top: 80px;
+    padding: 22px 5px 22px 5px;
+    background-color: #e1ed98;
+    margin-left: -180px;
+    margin-right: -180px;
+    text-align: center;
+    border-radius: 6px;
+}
+
+.logout-actions{
+    padding: 22px 5px 22px 5px;
+    margin-left: -90px;
+    margin-right: -90px;
+    text-align: center;
+}
+
+.justify{
+    margin: 0px 150px 0px auto;
+}
+
+.logout-message{
+    color: #5d5d5d;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+
+
+table{
+    width: 100%;
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+thead{
+    background: #ec7b2f;
+    color: white;
+    font-weight: 100;
+    margin: 0 !important;
+    max-height: 20px !important;
+    padding: 0 !important;
+    text-align: center;
+    text-transform: uppercase;
+    vertical-align: middle;
+}
+
+tr{
+    margin: 0 !important;
+    max-height: 20px !important;
+    padding: 0 !important;
+}
+
+th{
+    font-size: 16px;
+    font-weight: normal;
+    text-align: center;
+    vertical-align: middle;
+    width: 100%;
+}
+
+.th{
+    white-space: nowrap;
+    margin-right: 15px;
+    font-weight: normal;
+    font-size: 16px;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.bg-primary-table{
+    background: #f9e0cf;
+    padding: 2px;
+    border-radius: 12px;
+    display: block;
+}
+
+.title{
+    color: #bf5c19;
+    font-weight: bold;
+    font-size: 22px;
+    margin-top: 180px;
+}
